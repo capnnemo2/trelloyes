@@ -1,6 +1,7 @@
 import React from 'react';
 import List from './List';
 import './App.css'
+import store from './store';
 
 class App extends React.Component {
   static defaultProps = {
@@ -31,21 +32,5 @@ class App extends React.Component {
   }
 }
 
-
-
-
-// function App(props) {
-//   return (
-//     <main className='App'>
-//       <header className='App-header'>
-//         <h1>Trelloyes!</h1>
-//       </header>
-//       <div className='App-list'>
-//         <List></List>
-//         {/* {props.store} */}
-//       </div>
-//     </main>
-//   );
-// }
 
 export default App;
