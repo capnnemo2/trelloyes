@@ -1,5 +1,3 @@
-// ONLY COPY AND PASTED THIS, STILL NEED TO DO WHATEVER NEEDS TO BE DONE TO EXPORT IT TO WHERE IT NEEDS TO GO, PER THE CURICULUM
-
 const STORE = {
     lists: [
       {
@@ -39,3 +37,5 @@ const STORE = {
       'm': { id: 'm', title: 'Thirteenth card', content: 'lorem ipsum' },
     },
   }
+
+  export default store;
