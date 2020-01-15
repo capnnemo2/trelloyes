@@ -4,16 +4,16 @@ import './App.css'
 import store from './store';
 
 class App extends React.Component {
-  static defaultProps = {
-    store: {
-      lists: [],
-      allCards: {},
-    }
-  };
+  // static defaultProps = {
+  //   store: {
+  //     lists: [],
+  //     allCards: {},
+  //   }
+  // };
 
   render() {
-    const { store } = this.props
-    console.log(store);
+    // const { store } = this.props
+    // console.log(store);
     return (
       <main className='App'>
         <header className='App-header'>
