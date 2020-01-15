@@ -6,7 +6,7 @@ import renderer from 'react-test-renderer';
 describe('List component', () => {
     it('renders without crashing', () => {
         const div = document.createElement('div');
-        ReactDOM.render(<List />, div);
+        ReactDOM.render(<List cards={[{ title: 'foo', content: 'bar'}]} headfer='List1'/>, div);
         ReactDOM.unmountComponentAtNode(div);
     });
 
