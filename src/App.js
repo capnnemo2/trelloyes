@@ -14,6 +14,14 @@ class App extends React.Component {
   //   ]
   // }
 
+  handleDeleteCard(card) {
+    console.log('handle delete card called', { card })
+  }
+
+  handleAddRandomCard(card) {
+    console.log('handle add random card called', { card })
+  }
+
   render() {
     return (
       <main className="App">
@@ -26,6 +34,8 @@ class App extends React.Component {
               key={list.id}
               header={list.header}
               cards={list.cardIds.map(id => store.allCards[id])}
+              onDeleteCard={this.handleDeleteCard}
+              onAddRandomCard={this.handleAddRandomCard}
             />
           ))}
         </div>
