@@ -5,6 +5,15 @@ import store from './store'
 
 class App extends React.Component {
 
+  // state = {
+  //   somethingItems: [
+  //     { title: 'First card',
+  //       content: 'lorem ipsum'},
+  //     { title: 'Second card',
+  //       content: 'lorem ipsum'}
+  //   ]
+  // }
+
   render() {
     return (
       <main className="App">
